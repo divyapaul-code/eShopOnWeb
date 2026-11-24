@@ -1,4 +1,4 @@
-param webAppName string = uniqueString(resourceGroup().id) // unique String gets created from az cli instructions
+param webAppName string = uniqueString('/subscriptions/7e25f712-2328-40f6-81a7-3cad89f231e3/resourceGroups/rg-eshoponweb-region1') // unique String gets created from az cli instructions
 param sku string = 'F1' // The SKU of App Service Plan
 param location string = 'westus3' //resourceGroup().location
 
